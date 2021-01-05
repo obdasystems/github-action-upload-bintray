@@ -40,6 +40,10 @@ inputs:
     description: 'Whether to publish the package right away, use "1" to enable'
     required: false
     default: '0'
+  override:
+    description: 'Whether to override existing files, use "1" to enable'
+    required: false
+    default: '0'
   calculate_metadata:
     description: 'Whether to let Bintray re-calculate metadata of the repository'
     default: 'true'
